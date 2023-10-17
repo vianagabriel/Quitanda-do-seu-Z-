@@ -35,7 +35,7 @@ public class QuitandaDoSeuZe {
         DecimalFormat df = new DecimalFormat("#.##");
 
 
-        System.out.println(df.format(precoTotal));
+        System.out.println("Suas compras deram um toda de R$ " +  df.format(precoTotal) + " reias.");
     }
 
 }
